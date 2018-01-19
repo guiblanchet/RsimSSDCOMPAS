@@ -1,0 +1,11 @@
+Package: RsimSSDCOMPAS
+Version: 0.2
+Date: 2010-10-25
+Title: Simulation of environment and species composition in a deterministique environment.
+Author: Marie-Helene Ouellette, with
+            contributions from Pierre Legendre <pierre.legendre@umontreal.ca>.
+Maintainer: F. Guillaume Blanchet <guillaume.blanchet@usherbrooke.ca>
+Depends: R (>= 2.11.0), MASS, gstat, KernSmooth, VGAM, FD
+Description: This package contains three main functions. 1) SimSSDR takes the size of a square grid, variograms characteristics and a type of deterministic structure and returns simulated environment and species data on that particular grid. 2) Rcompas generates species with a generalized beta distribution along a given gradient, following closely COMPAS and JCOMPAS. 3) SimPartial function simulates a covariate vector that is correlated (correlation coefficient given by the user) to a provided gradient and subsequently adds the covariable's additive effect to a provided species data matrix.
+License: GPL (>= 2)
+RoxygenNote: 6.0.1
